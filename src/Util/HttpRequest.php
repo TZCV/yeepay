@@ -1,8 +1,8 @@
 <?php
 
-namespace Xytown/Yeepay\Util;
+namespace Xytown\Yeepay\Util;
 
-use Xytown/Yeepay\YopConfig;
+use Xytown\Yeepay\YopConfig;
 
 define("LANGS", "php");
 define("VERSION", "3.1.14");

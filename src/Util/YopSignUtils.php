@@ -1,8 +1,8 @@
 <?php
 
-namespace Xytown/Yeepay\Util;
+namespace Xytown\Yeepay\Util;
 
-use Xytown/Yeepay\YopConfig;
+use Xytown\Yeepay\YopConfig;
 
 abstract class YopSignUtils
 {

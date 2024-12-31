@@ -1,6 +1,6 @@
 <?php
 
-namespace Xytown/Yeepay;
+namespace Xytown\Yeepay;
 
 class YopRequest
 {

@@ -1,5 +1,5 @@
 {
-    "name": "xytown/yeepay",
+    "name": "Xytown\Yeepay",
     "description": "fix bugs for yeepay",
     "license": "Apache-2.0",
     "authors": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xytown/Yeepay\\": "src/"
+            "Xytown\Yeepay\\": "src/"
         }
     }
 }

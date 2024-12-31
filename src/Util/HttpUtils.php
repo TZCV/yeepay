@@ -1,6 +1,6 @@
 <?php
 
-namespace Xytown/Yeepay\Util;
+namespace Xytown\Yeepay\Util;
 
 abstract class HttpUtils
 {
