@@ -312,7 +312,7 @@ class YopRsaClient
             $response->state = "SUCCESS";
             $response->result = $jsoncontent->result;
         } else {
-            if (strpos($content, 'Connection timed out')) {
+            if (strpos($content, 'Connection timed out') || !isset($jsoncontent->code)) {
                 $error_code = 28;
                 $error_msg = $error_code . ':' . $content;
                 throw new \Exception($error_msg);
