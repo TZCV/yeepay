@@ -1,6 +1,6 @@
 <?php
 
-namespace Yeepay\Yop\Sdk\V1;
+namespace Xytown/Yeepay;
 
 class YopError
 {

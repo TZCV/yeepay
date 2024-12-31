@@ -1,9 +1,9 @@
 <?php
 
-namespace Yeepay\Yop\Sdk\V1;
+namespace Xytown/Yeepay;
 
-use Yeepay\Yop\Sdk\V1\Util\HttpRequest;
-use Yeepay\Yop\Sdk\V1\Util\YopSignUtils;
+use Xytown/Yeepay\Util\HttpRequest;
+use Xytown/Yeepay\Util\YopSignUtils;
 
 class YopClient
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yeepay\Yop\Sdk\V1\Util;
+namespace Xytown/Yeepay\Util;
 
 /*
  * The MIT License (MIT)

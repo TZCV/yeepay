@@ -1,0 +1,25 @@
+{
+    "name": "xytown/yeepay",
+    "description": "fix bugs for yeepay",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Tim",
+            "email": "hzchappy@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-openssl": "*",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xytown/Yeepay\\": "src/"
+        }
+    }
+}

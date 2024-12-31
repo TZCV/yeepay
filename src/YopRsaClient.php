@@ -1,10 +1,10 @@
 <?php
 
-namespace Yeepay\Yop\Sdk\V1;
+namespace Xytown/Yeepay;
 
-use Yeepay\Yop\Sdk\V1\Util\Base64Url;
-use Yeepay\Yop\Sdk\V1\Util\HttpRequest;
-use Yeepay\Yop\Sdk\V1\Util\HttpUtils;
+use Xytown/Yeepay\Util\Base64Url;
+use Xytown/Yeepay\Util\HttpRequest;
+use Xytown/Yeepay\Util\HttpUtils;
 
 class YopRsaClient
 {
