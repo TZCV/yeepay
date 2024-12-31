@@ -319,8 +319,10 @@ class YopRsaClient
             }
             $response->state = "FAILURE";
             $response->error = new YopError();
-            $response->error->code = 400;
-            $response->error->message =  '请求网络异常';
+            $response->error->code = $jsoncontent->code;
+            $response->error->message = $jsoncontent->message;
+            $response->error->subCode = $jsoncontent->subCode;
+            $response->error->subMessage = $jsoncontent->subMessage;
         }
 
         if (YopConfig::$debug) {
